@@ -1,7 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35be2c38-176f-4b4e-86e8-af60f2c3d80f" name="Default" comment="" />
+    <list default="true" id="35be2c38-176f-4b4e-86e8-af60f2c3d80f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-data/scoverage.measurements.52" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-data/scoverage.measurements.49" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$accounts$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$accounts$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$accounts$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$accounts$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$accounts$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$api$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$checkout$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$commonSettings$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$commonSettings$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$commonSettings$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$dashboard$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$inventory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$inventory$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$inventory$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$inventory$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$inventory$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$root$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$root$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$root$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$$anonfun$root$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$01cacee00da45ad33fb3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$7bcb763eae9054137ac5$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$7bcb763eae9054137ac5$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$7bcb763eae9054137ac5.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$7bcb763eae9054137ac5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$bc4c739d089fa9a661cd$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$bc4c739d089fa9a661cd$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$bc4c739d089fa9a661cd.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$bc4c739d089fa9a661cd.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c5a08b4ee1df53ae555e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c5a08b4ee1df53ae555e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c5a08b4ee1df53ae555e.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/target/config-classes/$c5a08b4ee1df53ae555e.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/User.class" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/UserListOperation.class" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/UserListOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/classes/Api.class" afterPath="$PROJECT_DIR$/api/target/scala-2.12/classes/Api.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/api/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart.class" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/checkout/target/streams/test/$global/$global/definedTestNames/data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/classes/Application$.class" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/classes/Application$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/clean/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/clean/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/accounts-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/accounts-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/api-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/api-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/api.iml" afterPath="$PROJECT_DIR$/.idea/modules/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/checkout-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/checkout-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dashboard-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/dashboard-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/dashboard.iml" afterPath="$PROJECT_DIR$/.idea/modules/dashboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/inventory-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/inventory-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/root-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/src/main/scala/User.scala" afterPath="$PROJECT_DIR$/accounts/src/main/scala/User.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala" afterPath="$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/coverage-report/cobertura.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/com.knoldus/accounts_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/com.knoldus/accounts_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/com.knoldus/accounts_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/com.knoldus/accounts_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-compile.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-docs.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-optional.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-plugin.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-pom.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-provided.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-runtime.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-sources.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-test.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/resolution-cache/reports/com.knoldus-accounts_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-data/scoverage.coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/(empty).html" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/(empty).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/User.scala.html" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/User.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/UserListOperation.scala.html" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/UserListOperation.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/overview.html" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/packages.html" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/packages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/scoverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/coverageReport/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/coverageReport/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/accounts/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/accounts/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/accounts/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/test-reports/UserListOperationTest.xml" afterPath="$PROJECT_DIR$/accounts/target/test-reports/UserListOperationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/scala/Api.scala" afterPath="$PROJECT_DIR$/api/src/main/scala/Api.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/coverage-report/cobertura.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/com.knoldus/api_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/com.knoldus/api_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/com.knoldus/api_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/com.knoldus/api_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-compile.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-docs.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-optional.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-plugin.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-pom.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-provided.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-runtime.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-sources.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-test.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/resolution-cache/reports/com.knoldus-api_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-data/scoverage.coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/(empty).html" afterPath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/(empty).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/Api.scala.html" afterPath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/Api.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/overview.html" afterPath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/scoverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/api/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/api/target/streams/test/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/api/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/src/main/scala/Cart.scala" afterPath="$PROJECT_DIR$/checkout/src/main/scala/Cart.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/coverage-report/cobertura.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/com.knoldus/checkout_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/com.knoldus/checkout_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/com.knoldus/checkout_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/com.knoldus/checkout_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-compile.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-docs.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-optional.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-plugin.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-pom.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-provided.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-runtime.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-sources.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-test.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/resolution-cache/reports/com.knoldus-checkout_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-data/scoverage.coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/(empty).html" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/(empty).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/Cart.scala.html" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/Cart.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/overview.html" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/packages.html" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/packages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/scoverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/coverageReport/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/coverageReport/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/checkout/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" afterPath="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/coverage-report/cobertura.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-compile.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-docs.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-optional.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-plugin.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-pom.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-provided.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-runtime.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-sources.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-test.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/reports/com.knoldus-dashboard_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-data/scoverage.coverage.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-data/scoverage.coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/(empty).html" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/(empty).html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/Application.scala.html" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/Application.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/overview.html" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/scoverage-report/scoverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/dashboard/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/coverage-report/cobertura.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/com.knoldus/inventory_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/com.knoldus/inventory_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/com.knoldus/inventory_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/com.knoldus/inventory_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-compile.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-docs.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-optional.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-plugin.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-pom.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-provided.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-runtime.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-sources.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-test.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/resolution-cache/reports/com.knoldus-inventory_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/overview.html" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/scoverage.xml" afterPath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/scoverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/inventory/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/inventory/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/inventory/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventory/target/test-reports/ItemListOperationTest.xml" afterPath="$PROJECT_DIR$/inventory/target/test-reports/ItemListOperationTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scalastyle-config.xml" afterPath="$PROJECT_DIR$/scalastyle-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-docs.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-scoveragePlugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-scoveragePlugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-sources.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/test-scala-01-test-scala-01_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/test-scala-01/test-scala-01_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/test-scala-01/test-scala-01_2.12/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/test-scala-01/test-scala-01_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/test-scala-01/test-scala-01_2.12/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -64,45 +343,33 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="26" column="79" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Cart.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Cart.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="228">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserCart.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala">
+      <file leaf-file-name="Item.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserListOperation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,21 +384,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
+      <file leaf-file-name="CartTrait.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/CartTrait.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemListOperationTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala">
+      <file leaf-file-name="User.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -140,8 +407,8 @@
       <file leaf-file-name="Api.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/scala/Api.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -150,8 +417,20 @@
       <file leaf-file-name="Application.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dashboard/src/main/scala/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="96">
+              <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -167,6 +446,9 @@
       <find>2.10</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -178,21 +460,25 @@
         <option value="$PROJECT_DIR$/accounts/src/main/scala/Person.scala" />
         <option value="$PROJECT_DIR$/accounts/src/main/scala/UserList.scala" />
         <option value="$PROJECT_DIR$/api/src/main/scala/UserOperationTrait.scala" />
-        <option value="$PROJECT_DIR$/accounts/src/main/scala/User.scala" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" />
         <option value="$PROJECT_DIR$/accounts/src/main/scala/UserOperationTrait.scala" />
-        <option value="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" />
-        <option value="$PROJECT_DIR$/api/src/main/scala/Api.scala" />
-        <option value="$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala" />
         <option value="$PROJECT_DIR$/accounts/src/test/scala/UserListOperationTest.scala" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/ItemListOperationTest.scala" />
         <option value="$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/ItemListOperationTrait.scala" />
         <option value="$PROJECT_DIR$/inventory/src/main/scala/ItemListOperation.scala" />
-        <option value="$PROJECT_DIR$/checkout/src/main/scala/Cart.scala" />
-        <option value="$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala" />
+        <option value="$PROJECT_DIR$/accounts/src/main/scala/User.scala" />
+        <option value="$PROJECT_DIR$/checkout/src/main/scala/Order.scala" />
+        <option value="$PROJECT_DIR$/checkout/src/test/scala/CartTest.scala" />
+        <option value="$PROJECT_DIR$/scalastyle-config.xml" />
+        <option value="$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala" />
+        <option value="$PROJECT_DIR$/checkout/src/main/scala/CartTrait.scala" />
+        <option value="$PROJECT_DIR$/checkout/src/main/scala/Cart.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/api/src/main/scala/Api.scala" />
+        <option value="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" />
       </list>
     </option>
   </component>
@@ -208,6 +494,7 @@
     <option name="width" value="1309" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -223,7 +510,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,20 +535,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="inventory" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,7 +593,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,13 +718,193 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="checkout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test-Scala-01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,6 +1130,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -761,6 +1297,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -805,7 +1347,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1517920066340" />
+    <option name="lastUpdateTimestamp" value="1517939701394" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -884,15 +1426,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517899337598</updated>
-      <workItem from="1517899345903" duration="21745000" />
+      <workItem from="1517899345903" duration="23596000" />
+      <workItem from="1517933943564" duration="7012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21745000" />
+    <option name="totallyTimeSpent" value="30608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1309" height="744" extended-state="7" />
+    <frame x="51" y="24" width="1309" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -902,25 +1446,25 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7870968" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.789644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2834521" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27078384" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -941,13 +1485,13 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68225807" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16785431" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16785431" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7870968" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2834521" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.789644" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27078384" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
@@ -963,66 +1507,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/UserOperationTrait.scala">
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Cart.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/src/test/scala/UserListOperationTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/ItemListOperationTrait.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/scala/Api.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="506">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1035,21 +1531,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala">
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="286">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/scala/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/scala/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="79" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+        <state relative-caret-position="176">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/UserOperationTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/test/scala/UserListOperationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/ItemListOperationTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1061,19 +1602,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Cart.scala">
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/UserCart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Order.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scalastyle-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="130" column="94" lean-forward="true" selection-start-line="130" selection-start-column="94" selection-end-line="130" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/ItemListOperation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/Item.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="30" column="61" lean-forward="false" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/User.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/scala/Api.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/test/scala/CartTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/Cart.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/CartTrait.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dashboard/src/main/scala/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="96">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

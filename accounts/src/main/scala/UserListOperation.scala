@@ -8,19 +8,20 @@ case class UserListOperation(registeredUsers: Map[Int, User]) extends UserOperat
 
   override def toString(): String = s"$registeredUsers\n"
 
-  def addNewUser(user: User): Map[Int,User]= {
-    registeredUsers + (user.contactNumber  ->user)
+  def addNewUser(user: User): Map[Int, User] = {
+    registeredUsers + (user.contactNumber -> user)
   }
 
-  def authenticateUser(id:Int, userName: String, password: String):Int ={
+  def authenticateUser(id: Int, userName: String, password: String): Int = {
     val user = registeredUsers(id)
-    if(user.userName == userName && user.password == password) {
-     val r = new scala.util.Random
-      r.nextInt(50)
+   // if (user.userName == userName && user.password == password) {
+     // val r = new scala.util.Random
+    user.authenticateSingleUser(userName,password)
+     // r.nextInt(50)
     }
-    else -1
+
   }
 
-}
+
 
 

@@ -1,24 +1,24 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
 [0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.4[0m
 [0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.4[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 7f012a8c, interfacing (CompilerInterface) with Scala compiler version 2.12.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 5fcfa459, interfacing (CompilerInterface) with Scala compiler version 2.12.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-Xplugin:/home/pallavi/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.1.jar[0m
 [0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/scoverage-data[0m
@@ -29,24 +29,26 @@
 [0m[[0mdebug[0m] [0m	/home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/classes:/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/classes:/home/pallavi/WorkSpace/Test-Scala-01/accounts/target/scala-2.12/classes:/home/pallavi/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.1.jar[0m
 [0m[[0minfo[0m] [0m[info] Cleaning datadir [/home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/scoverage-data][0m
 [0m[[0minfo[0m] [0m[info] Beginning coverage instrumentation[0m
-[0m[[0minfo[0m] [0m[info] Instrumentation completed [7 statements][0m
+[0m[[0minfo[0m] [0m[info] Instrumentation completed [13 statements][0m
 [0m[[0minfo[0m] [0m[info] Wrote instrumentation file [/home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/scoverage-data/scoverage.coverage.xml][0m
 [0m[[0minfo[0m] [0m[info] Will write measurement data to [/home/pallavi/WorkSpace/Test-Scala-01/checkout/target/scala-2.12/scoverage-data][0m
-[0m[[0mdebug[0m] [0mScala compilation took 2.278207132 s[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala...[0m
-[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala)[0m
-[0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/UserCart.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	.[0m
-[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.105851258 s[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala...[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, removeItem, productArity, equals, listOfItems, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, Cart, isInstanceOf, <init>, ==, clone, $init$, copy, toString, !=, addItem, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, removeItem, productArity, equals, listOfItems, calculateBill, asInstanceOf, synchronized, $isInstanceOf, canEqual, productPrefix, notifyAll, Cart, isInstanceOf, <init>, ==, clone, $init$, copy, toString, !=, addItem, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
 [0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala by /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala, /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/CartTrait.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, wait, $asInstanceOf, removeItem, equals, calculateBill, asInstanceOf, synchronized, $isInstanceOf, CartTrait, notifyAll, isInstanceOf, ==, clone, toString, !=, addItem, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala: Set(asInstanceOf, CartTrait, isInstanceOf, ==, toString, !=, eq)[0m
 [0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
 [0m[[0mdebug[0m] [0m[naha] 	Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m

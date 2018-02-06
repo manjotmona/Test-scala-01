@@ -1,17 +1,14 @@
 <scoverage 
-statement-count="22" statements-invoked="10" statement-rate="45.45" branch-rate="100.00" version="1.0" timestamp="1517920305926">
+statement-count="23" statements-invoked="11" statement-rate="47.83" branch-rate="100.00" version="1.0" timestamp="1517940648217">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="22" statements-invoked="10" statement-rate="45.45">
+        <package name="&lt;empty&gt;" statement-count="23" statements-invoked="11" statement-rate="47.83">
             <classes>
                 <class 
-                name="UserListOperation" filename="UserListOperation.scala" statement-count="14" statements-invoked="10" statement-rate="71.43" branch-rate="100.00">
+                name="UserListOperation" filename="UserListOperation.scala" statement-count="8" statements-invoked="4" statement-rate="50.00" branch-rate="100.00">
                     <methods>
                         <method 
                         name="&lt;empty&gt;/UserListOperation/toString" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="175" end="190" line="9" branch="false" invocation-count="0" ignored="false">
-</statement>
                                 <statement 
                                 package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="190" end="193" line="9" branch="false" invocation-count="0" ignored="false">
 </statement>
@@ -21,34 +18,19 @@ statement-count="22" statements-invoked="10" statement-rate="45.45" branch-rate=
                                 <statement 
                                 package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="172" end="193" line="9" branch="false" invocation-count="0" ignored="false">
 </statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="175" end="190" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/UserListOperation/authenticateUser" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                        name="&lt;empty&gt;/UserListOperation/authenticateUser" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="414" end="468" line="17" branch="false" invocation-count="1" ignored="false">
+                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="522" end="568" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="470" end="532" line="17" branch="true" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="542" end="544" line="21" branch="true" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="443" end="468" line="17" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="513" end="526" line="19" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="485" end="506" line="18" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="542" end="544" line="21" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="387" end="406" line="16" branch="false" invocation-count="1" ignored="false">
+                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="392" end="411" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
@@ -56,18 +38,44 @@ statement-count="22" statements-invoked="10" statement-rate="45.45" branch-rate=
                         name="&lt;empty&gt;/UserListOperation/addNewUser" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="246" end="292" line="12" branch="false" invocation-count="1" ignored="false">
+                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="267" end="293" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="265" end="291" line="12" branch="false" invocation-count="1" ignored="false">
+                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="248" end="294" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                     </methods>
 </class>
                 <class 
-                name="User" filename="User.scala" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                name="User" filename="User.scala" statement-count="15" statements-invoked="7" statement-rate="46.67" branch-rate="100.00">
                     <methods>
+                        <method 
+                        name="&lt;empty&gt;/User/authenticateSingleUser" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="352" end="373" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="417" end="419" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="336" end="399" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="280" end="334" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="309" end="334" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="380" end="393" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="417" end="419" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
                         <method 
                         name="&lt;empty&gt;/User/toString" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>

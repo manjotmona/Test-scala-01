@@ -28,11 +28,13 @@ lazy val checkout = (project in file("checkout")).dependsOn(inventory,accounts)
   .settings(commonSettings,
     libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "3.0.4" % "test")
   )
-lazy val api = project.dependsOn(accounts)
+lazy val api = project.dependsOn(accounts,inventory,checkout)
   .settings(commonSettings,
     libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "3.0.4" % "test")
   )
 lazy val dashboard = project.dependsOn(api)
   .settings(commonSettings,
-    libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "3.0.4" % "test")
+    libraryDependencies ++= Seq("org.scalatest" %% "scalatest" % "3.0.4" % "test",
+      "log4j" % "log4j" % "1.2.17"
+    )
   )

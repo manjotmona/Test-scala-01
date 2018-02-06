@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.52" lines-valid="33" lines-covered="17" branches-valid="0" branches-covered="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1517920305848">
+line-rate="0.52" lines-valid="33" lines-covered="17" branches-valid="0" branches-covered="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1517940647678">
     <sources>
         <source>--source</source>
         <source>/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala</source>

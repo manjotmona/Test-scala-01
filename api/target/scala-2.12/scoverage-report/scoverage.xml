@@ -1,31 +1,91 @@
 <scoverage 
-statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517920306609">
+statement-count="26" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517940649276">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="6" statements-invoked="0" statement-rate="0.00">
+        <package name="&lt;empty&gt;" statement-count="26" statements-invoked="0" statement-rate="0.00">
             <classes>
                 <class 
-                name="Api" filename="Api.scala" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                name="Api" filename="Api.scala" statement-count="26" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/Api/&lt;none&gt;" statement-count="6" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="&lt;empty&gt;/Api/&lt;none&gt;" statement-count="26" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="162" end="181" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="672" end="677" line="15" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="158" end="190" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="638" end="644" line="13" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="162" end="189" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="471" end="499" line="10" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="67" end="97" line="5" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="597" end="679" line="12" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="184" end="189" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="539" end="545" line="11" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="140" end="191" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="655" end="661" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="113" end="167" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="342" end="407" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="624" end="627" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="259" end="327" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="619" end="620" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="667" end="668" line="15" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="494" end="499" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="633" end="634" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="615" end="678" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="449" end="501" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="67" end="100" line="5" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="650" end="651" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="467" end="500" line="10" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="633" end="644" line="13" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="534" end="546" line="11" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="183" end="243" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="650" end="661" line="14" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="619" end="627" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="667" end="677" line="15" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Api" class-type="Class" full-class-name="Api" source="/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala/Api.scala" method="&lt;none&gt;" start="471" end="490" line="10" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>

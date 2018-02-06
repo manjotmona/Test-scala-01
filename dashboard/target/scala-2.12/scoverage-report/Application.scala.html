@@ -22,17 +22,37 @@
         </ul>
         <div class="tab-content">
           <div class="tab-pane active" id="codegrid">
-            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>/**
-</span>2 <span style=''> * Created by pallavi on 6/2/18.
-</span>3 <span style=''> */
-</span>4 <span style=''>object  Application extends {
-</span>5 <span style=''>  def main(args: Array[String]): Unit = {
-</span>6 <span style=''>    val api = </span><span style='background: #F0ADAD'>new Api</span><span style=''>
-</span>7 <span style=''>    val newUser = </span><span style='background: #F0ADAD'>User(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)</span><span style=''>
-</span>8 <span style=''>    </span><span style='background: #F0ADAD'>print(api.userTraitApi.addNewUser(newUser))</span><span style=''>
-</span>9 <span style=''>
-</span>10 <span style=''>  }
-</span>11 <span style=''>}
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import scala.io.StdIn
+</span>2 <span style=''>
+</span>3 <span style=''>import org.apache.log4j.Logger
+</span>4 <span style=''>
+</span>5 <span style=''>/**
+</span>6 <span style=''> * Created by pallavi on 6/2/18.
+</span>7 <span style=''> */
+</span>8 <span style=''>object  Application extends {
+</span>9 <span style=''>  def main(args: Array[String]): Unit = {
+</span>10 <span style=''>    val logObject = </span><span style='background: #F0ADAD'>Logger.getLogger(this.getClass)</span><span style=''>
+</span>11 <span style=''>    val api = </span><span style='background: #F0ADAD'>new Api</span><span style=''>
+</span>12 <span style=''>    //add credentials
+</span>13 <span style=''>    val newUser = </span><span style='background: #F0ADAD'>User(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)</span><span style=''>
+</span>14 <span style=''>    val registeredUsers = </span><span style='background: #F0ADAD'>api.userTraitApi.addNewUser(newUser)</span><span style=''>
+</span>15 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter user id:&quot;)</span><span style=''>
+</span>16 <span style=''>    val userID = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
+</span>17 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter password:&quot;)</span><span style=''>
+</span>18 <span style=''>    val userPwd = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
+</span>19 <span style=''>    val newRegisteredUsers = </span><span style='background: #F0ADAD'>UserListOperation(registeredUsers)</span><span style=''>
+</span>20 <span style=''>    val token = </span><span style='background: #F0ADAD'>newRegisteredUsers.authenticateUser(newUser.contactNumber,userID,userPwd)</span><span style=''>
+</span>21 <span style=''>    if(</span><span style='background: #F0ADAD'>token == -1</span><span style=''>)
+</span>22 <span style=''>      {
+</span>23 <span style=''>        </span><span style='background: #F0ADAD'>logObject.info(&quot;Invalid User&quot;)</span><span style=''>
+</span>24 <span style=''>      }
+</span>25 <span style=''>    else {
+</span>26 <span style=''>      </span><span style='background: #F0ADAD'>logObject.info(&quot;a token successfully generted for the user&quot;)</span><span style=''>
+</span>27 <span style=''>
+</span>28 <span style=''>    }
+</span>29 <span style=''>
+</span>30 <span style=''>  }
+</span>31 <span style=''>}
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -46,15 +66,57 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          6
+          10
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          188
+          -
+          219
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Logger.getLogger
+        </td>
+        <td style="background: #F0ADAD">
+          org.apache.log4j.Logger.getLogger(this.getClass())
+        </td>
+      </tr><tr>
+        <td>
+          10
         </td>
         <td>
           1
         </td>
         <td>
-          127
+          205
           -
-          134
+          218
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.getClass
+        </td>
+        <td style="background: #F0ADAD">
+          this.getClass()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          234
+          -
+          241
         </td>
         <td>
           Apply
@@ -67,15 +129,15 @@
         </td>
       </tr><tr>
         <td>
-          7
+          13
         </td>
         <td>
-          2
+          4
         </td>
         <td>
-          153
+          282
           -
-          187
+          316
         </td>
         <td>
           Apply
@@ -88,36 +150,15 @@
         </td>
       </tr><tr>
         <td>
-          8
+          14
         </td>
         <td>
-          4
+          5
         </td>
         <td>
-          192
+          343
           -
-          235
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          scala.Predef.print
-        </td>
-        <td style="background: #F0ADAD">
-          scala.Predef.print(api.userTraitApi.addNewUser(newUser))
-        </td>
-      </tr><tr>
-        <td>
-          8
-        </td>
-        <td>
-          3
-        </td>
-        <td>
-          198
-          -
-          234
+          379
         </td>
         <td>
           Apply
@@ -127,6 +168,258 @@
         </td>
         <td style="background: #F0ADAD">
           api.userTraitApi.addNewUser(newUser)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          384
+          -
+          416
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Enter user id:&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          434
+          -
+          459
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.toString
+        </td>
+        <td style="background: #F0ADAD">
+          scala.io.StdIn.readLine().toString()
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          464
+          -
+          497
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Enter password:&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          516
+          -
+          541
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.toString
+        </td>
+        <td style="background: #F0ADAD">
+          scala.io.StdIn.readLine().toString()
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          571
+          -
+          605
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          UserListOperation.apply
+        </td>
+        <td style="background: #F0ADAD">
+          UserListOperation.apply(registeredUsers)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          658
+          -
+          679
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          User.contactNumber
+        </td>
+        <td style="background: #F0ADAD">
+          newUser.contactNumber
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          622
+          -
+          695
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          UserListOperation.authenticateUser
+        </td>
+        <td style="background: #F0ADAD">
+          newRegisteredUsers.authenticateUser(newUser.contactNumber, userID, userPwd)
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          703
+          -
+          714
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.==
+        </td>
+        <td style="background: #F0ADAD">
+          token.==(-1)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          732
+          -
+          762
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Invalid User&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          732
+          -
+          762
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Invalid User&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          788
+          -
+          848
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;a token successfully generted for the user&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          788
+          -
+          848
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;a token successfully generted for the user&quot;)
         </td>
       </tr>
     </table>

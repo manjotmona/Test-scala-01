@@ -28,7 +28,17 @@
 </span>4 <span style=''>case class User(name: String, contactNumber: Int,userName: String,password: String) {
 </span>5 <span style=''>
 </span>6 <span style=''>  override def toString(): String = </span><span style='background: #F0ADAD'>s&quot;$name $contactNumber $userName&quot;</span><span style=''>
-</span>7 <span style=''>}
+</span>7 <span style=''>
+</span>8 <span style=''>  def authenticateSingleUser(userName: String, password: String): Int = {
+</span>9 <span style=''>    if (</span><span style='background: #AEF1AE'>this.userName == userName &amp;&amp; this.password == password</span><span style=''>) </span><span style='background: #AEF1AE'>{
+</span>10 <span style=''></span><span style='background: #AEF1AE'>      val r = new scala.util.Random
+</span>11 <span style=''></span><span style='background: #AEF1AE'>      r.nextInt(50)
+</span>12 <span style=''></span><span style='background: #AEF1AE'>    }</span><span style=''>
+</span>13 <span style=''>    else {
+</span>14 <span style=''>      </span><span style='background: #AEF1AE'>-1</span><span style=''>
+</span>15 <span style=''>    }
+</span>16 <span style=''>  }
+</span>17 <span style=''>}
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -207,6 +217,156 @@
         </td>
         <td style="background: #F0ADAD">
           User.this.contactNumber
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          336
+          -
+          399
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val r: scala.util.Random = new scala.util.Random();
+  r.nextInt(50)
+}
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          280
+          -
+          334
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Boolean.&amp;&amp;
+        </td>
+        <td style="background: #AEF1AE">
+          this.userName.==(userName).&amp;&amp;(this.password.==(password))
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          309
+          -
+          334
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          this.password.==(password)
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          352
+          -
+          373
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.util.Random.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new scala.util.Random()
+        </td>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          380
+          -
+          393
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.util.Random.nextInt
+        </td>
+        <td style="background: #AEF1AE">
+          r.nextInt(50)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          417
+          -
+          419
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          -1
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          417
+          -
+          419
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          -1
         </td>
       </tr>
     </table>

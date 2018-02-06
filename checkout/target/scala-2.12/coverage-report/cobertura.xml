@@ -1,44 +1,60 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.00" lines-valid="7" lines-covered="0" branches-valid="0" branches-covered="0" branch-rate="0.00" complexity="0" version="1.0" timestamp="1517920307092">
+line-rate="0.69" lines-valid="13" lines-covered="9" branches-valid="0" branches-covered="0" branch-rate="1.00" complexity="0" version="1.0" timestamp="1517940648552">
     <sources>
         <source>--source</source>
         <source>/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala</source>
     </sources>
     <packages>
-        <package name="&lt;empty&gt;" line-rate="0.00" branch-rate="0.00" complexity="0">
+        <package name="&lt;empty&gt;" line-rate="0.69" branch-rate="1.00" complexity="0">
             <classes>
-                <class name="Cart" filename="Cart.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                <class name="Cart" filename="Cart.scala" line-rate="0.69" branch-rate="1.00" complexity="0">
                     <methods>
                         <method name="&lt;empty&gt;/Cart/toString" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
                             <lines>
-                                <line number="12" hits="0" branch="false"/>
-                                <line number="12" hits="0" branch="false"/>
-                                <line number="12" hits="0" branch="false"/>
-                                <line number="12" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
+                                <line number="24" hits="0" branch="false"/>
                             </lines>
                         </method>
-                        <method name="&lt;empty&gt;/Cart/addItem" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                        <method name="&lt;empty&gt;/Cart/addItem" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="6" hits="0" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
                             </lines>
                         </method>
-                        <method name="&lt;empty&gt;/Cart/removeItem" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                        <method name="&lt;empty&gt;/Cart/internalSum" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="9" hits="0" branch="false"/>
-                                <line number="9" hits="0" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="&lt;empty&gt;/Cart/removeItem" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
                             </lines>
                         </method>
                     </methods>
                     <lines>
-                        <line number="9" hits="0" branch="false"/>
-                        <line number="12" hits="0" branch="false"/>
-                        <line number="12" hits="0" branch="false"/>
-                        <line number="12" hits="0" branch="false"/>
-                        <line number="6" hits="0" branch="false"/>
-                        <line number="9" hits="0" branch="false"/>
-                        <line number="12" hits="0" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="24" hits="0" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
                     </lines>
                 </class>
             </classes>
