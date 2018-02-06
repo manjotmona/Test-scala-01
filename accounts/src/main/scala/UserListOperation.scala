@@ -14,13 +14,10 @@ case class UserListOperation(registeredUsers: Map[Int, User]) extends UserOperat
 
   def authenticateUser(id: Int, userName: String, password: String): Int = {
     val user = registeredUsers(id)
-   // if (user.userName == userName && user.password == password) {
-     // val r = new scala.util.Random
-    user.authenticateSingleUser(userName,password)
-     // r.nextInt(50)
-    }
-
+    user.authenticateSingleUser(userName, password)
   }
+
+}
 
 
 
