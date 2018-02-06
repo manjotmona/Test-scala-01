@@ -1,0 +1,523 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          ItemListOperation.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import scala.collection.immutable.ListMap
+</span>2 <span style=''>
+</span>3 <span style=''>/**
+</span>4 <span style=''> * Created by pallavi on 6/2/18.
+</span>5 <span style=''> */
+</span>6 <span style=''>case class ItemListOperation(stockOfItems: Map[Int, Item]) extends ItemListOperationTrait  {
+</span>7 <span style=''>
+</span>8 <span style=''>  override def toString(): String = </span><span style='background: #F0ADAD'>s&quot;$stockOfItems\n&quot;</span><span style=''>
+</span>9 <span style=''>  def searchItemByCategory(category: String): String = {
+</span>10 <span style=''>    val itemList = </span><span style='background: #AEF1AE'>stockOfItems.valuesIterator.toList</span><span style=''>
+</span>11 <span style=''>
+</span>12 <span style=''>    def internalItemByCategory(list: List[Item], tempString: String): String = {
+</span>13 <span style=''>      list match {
+</span>14 <span style=''>        case Nil =&gt; tempString
+</span>15 <span style=''>        case head :: tail =&gt; head match {
+</span>16 <span style=''>          case item: Item if </span><span style='background: #AEF1AE'>item.category == category</span><span style=''> =&gt;
+</span>17 <span style=''>            </span><span style='background: #AEF1AE'>internalItemByCategory(tail,
+</span>18 <span style=''></span><span style='background: #AEF1AE'>              tempString + item.name + &quot; &quot;)</span><span style=''>
+</span>19 <span style=''>          case item: Item if </span><span style='background: #AEF1AE'>item.category != category</span><span style=''> =&gt;
+</span>20 <span style=''>            </span><span style='background: #AEF1AE'>internalItemByCategory(tail, tempString)</span><span style=''>
+</span>21 <span style=''>        }
+</span>22 <span style=''>      }
+</span>23 <span style=''>    }
+</span>24 <span style=''>
+</span>25 <span style=''>    </span><span style='background: #AEF1AE'>internalItemByCategory(itemList, &quot;&quot;)</span><span style=''>
+</span>26 <span style=''>  }
+</span>27 <span style=''>
+</span>28 <span style=''>  def sortByPriceAscending(): List[Item] = {
+</span>29 <span style=''>    val sortedMap = </span><span style='background: #AEF1AE'>ListMap(this.stockOfItems.toSeq.sortWith(_._2.price &gt; _._2.price): _*)</span><span style=''>
+</span>30 <span style=''>    val sortedList = </span><span style='background: #AEF1AE'>sortedMap.valuesIterator.toList</span><span style=''>
+</span>31 <span style=''>    sortedList
+</span>32 <span style=''>  }
+</span>33 <span style=''>
+</span>34 <span style=''>  def sortByPriceDescending: List[Item] = {
+</span>35 <span style=''>    val sortedMap = </span><span style='background: #AEF1AE'>ListMap(this.stockOfItems.toSeq.sortWith(_._2.price &lt; _._2.price): _*)</span><span style=''>
+</span>36 <span style=''>    val sortedList = </span><span style='background: #AEF1AE'>sortedMap.valuesIterator.toList</span><span style=''>
+</span>37 <span style=''>    sortedList
+</span>38 <span style=''>
+</span>39 <span style=''>  }
+</span>40 <span style=''>
+</span>41 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          229
+          -
+          232
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;\\n&quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          216
+          -
+          217
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;&quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          214
+          -
+          232
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.StringContext.s
+        </td>
+        <td style="background: #F0ADAD">
+          scala.StringContext.apply(&quot;&quot;, &quot;\\n&quot;).s(ItemListOperation.this.stockOfItems)
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          217
+          -
+          229
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          ItemListOperation.stockOfItems
+        </td>
+        <td style="background: #F0ADAD">
+          ItemListOperation.this.stockOfItems
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          309
+          -
+          343
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.TraversableOnce.toList
+        </td>
+        <td style="background: #AEF1AE">
+          ItemListOperation.this.stockOfItems.valuesIterator.toList
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          547
+          -
+          572
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          item.category.==(category)
+        </td>
+      </tr><tr>
+        <td>
+          17
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          588
+          -
+          660
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          ItemListOperation.internalItemByCategory
+        </td>
+        <td style="background: #AEF1AE">
+          internalItemByCategory(tail, tempString.+(item.name).+(&quot; &quot;))
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          631
+          -
+          659
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #AEF1AE">
+          tempString.+(item.name).+(&quot; &quot;)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          690
+          -
+          715
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.!=
+        </td>
+        <td style="background: #AEF1AE">
+          item.category.!=(category)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          731
+          -
+          771
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          ItemListOperation.internalItemByCategory
+        </td>
+        <td style="background: #AEF1AE">
+          internalItemByCategory(tail, tempString)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          801
+          -
+          837
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          ItemListOperation.internalItemByCategory
+        </td>
+        <td style="background: #AEF1AE">
+          internalItemByCategory(itemList, &quot;&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          916
+          -
+          973
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #AEF1AE">
+          this.stockOfItems.toSeq.sortWith(((x$1: (Int, Item), x$2: (Int, Item)) =&gt; x$1._2.price.&gt;(x$2._2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          949
+          -
+          972
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Float.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          x$1._2.price.&gt;(x$2._2.price)
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          908
+          -
+          978
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.generic.GenMapFactory.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.ListMap.apply[Int, Item]((this.stockOfItems.toSeq.sortWith(((x$1: (Int, Item), x$2: (Int, Item)) =&gt; x$1._2.price.&gt;(x$2._2.price))): _*))
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          962
+          -
+          972
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.price
+        </td>
+        <td style="background: #AEF1AE">
+          x$2._2.price
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          1000
+          -
+          1031
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.TraversableOnce.toList
+        </td>
+        <td style="background: #AEF1AE">
+          sortedMap.valuesIterator.toList
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          1116
+          -
+          1186
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.generic.GenMapFactory.apply
+        </td>
+        <td style="background: #AEF1AE">
+          scala.collection.immutable.ListMap.apply[Int, Item]((this.stockOfItems.toSeq.sortWith(((x$3: (Int, Item), x$4: (Int, Item)) =&gt; x$3._2.price.&lt;(x$4._2.price))): _*))
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          1170
+          -
+          1180
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          Item.price
+        </td>
+        <td style="background: #AEF1AE">
+          x$4._2.price
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          1124
+          -
+          1181
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.collection.SeqLike.sortWith
+        </td>
+        <td style="background: #AEF1AE">
+          this.stockOfItems.toSeq.sortWith(((x$3: (Int, Item), x$4: (Int, Item)) =&gt; x$3._2.price.&lt;(x$4._2.price)))
+        </td>
+      </tr><tr>
+        <td>
+          35
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          1157
+          -
+          1180
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Float.&lt;
+        </td>
+        <td style="background: #AEF1AE">
+          x$3._2.price.&lt;(x$4._2.price)
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          1208
+          -
+          1239
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.collection.TraversableOnce.toList
+        </td>
+        <td style="background: #AEF1AE">
+          sortedMap.valuesIterator.toList
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

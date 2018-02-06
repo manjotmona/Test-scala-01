@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.00" lines-valid="6" lines-covered="0" branches-valid="0" branches-covered="0" branch-rate="0.00" complexity="0" version="1.0" timestamp="1517920306605">
+    <sources>
+        <source>--source</source>
+        <source>/home/pallavi/WorkSpace/Test-Scala-01/api/src/main/scala</source>
+    </sources>
+    <packages>
+        <package name="&lt;empty&gt;" line-rate="0.00" branch-rate="0.00" complexity="0">
+            <classes>
+                <class name="Api" filename="Api.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="&lt;empty&gt;/Api/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
+                            <lines>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="5" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                                <line number="6" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="5" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                        <line number="6" hits="0" branch="false"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>

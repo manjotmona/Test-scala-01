@@ -1,0 +1,31 @@
+<scoverage 
+statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517920307413">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="4" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="Application" filename="Application.scala" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Application/main" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="153" end="187" line="7" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="192" end="235" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="127" end="134" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="198" end="234" line="8" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

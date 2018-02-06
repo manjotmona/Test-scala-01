@@ -1,0 +1,50 @@
+<scoverage 
+statement-count="7" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517920307096">
+    <packages>
+        <package name="&lt;empty&gt;" statement-count="7" statements-invoked="0" statement-rate="0.00">
+            <classes>
+                <class 
+                name="Cart" filename="Cart.scala" statement-count="7" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="&lt;empty&gt;/Cart/toString" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="319" end="322" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="307" end="308" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="305" end="322" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="308" end="319" line="12" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Cart/addItem" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="addItem" start="132" end="154" line="6" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="&lt;empty&gt;/Cart/removeItem" statement-count="2" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="removeItem" start="242" end="251" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="removeItem" start="223" end="252" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

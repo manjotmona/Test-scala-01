@@ -1,0 +1,66 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.4[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.17:component from component compiler for Scala 2.12.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 73756adb, interfacing (CompilerInterface) with Scala compiler version 2.12.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/pallavi/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.12/jars/scalac-scoverage-plugin_2.12-1.3.1.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/pallavi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/classes:/home/pallavi/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.12/jars/scalac-scoverage-runtime_2.12-1.3.1.jar[0m
+[0m[[0minfo[0m] [0m[info] Cleaning datadir [/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/scoverage-data][0m
+[0m[[0minfo[0m] [0m[info] Beginning coverage instrumentation[0m
+[0m[[0minfo[0m] [0m[info] Instrumentation completed [33 statements][0m
+[0m[[0minfo[0m] [0m[info] Wrote instrumentation file [/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/scoverage-data/scoverage.coverage.xml][0m
+[0m[[0minfo[0m] [0m[info] Will write measurement data to [/home/pallavi/WorkSpace/Test-Scala-01/inventory/target/scala-2.12/scoverage-data][0m
+[0m[[0mdebug[0m] [0mScala compilation took 8.591565864 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/Item.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, name, wait, copy$default$2, $asInstanceOf, vendorInformation, copy$default$5, productArity, equals, asInstanceOf, price, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, ==, clone, $init$, copy$default$3, copy, category, toString, Item, !=, getClass, copy$default$1, ne, eq, productIterator, itemCount, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala: Set(Item)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala: Set(name, asInstanceOf, price, isInstanceOf, <init>, ==, category, toString, Item, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala by /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala, /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperationTrait.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, sortByPriceDescending, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, sortByPriceAscending, notifyAll, ItemListOperationTrait, isInstanceOf, ==, searchItemByCategory, clone, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala: Set(asInstanceOf, ItemListOperationTrait, isInstanceOf, ==, toString, !=, ne, eq)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/pallavi/WorkSpace/Test-Scala-01/inventory/src/main/scala/ItemListOperation.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	notify, sortByPriceDescending, wait, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, sortByPriceAscending, canEqual, productPrefix, notifyAll, ItemListOperation, isInstanceOf, <init>, ==, searchItemByCategory, clone, $init$, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, productElement, hashCode, stockOfItems.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
