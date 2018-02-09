@@ -2,46 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35be2c38-176f-4b4e-86e8-af60f2c3d80f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventory/src/test/scala/com/knolkart/modules/ItemTest/ItemTest.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/src/main/scala/User.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/src/main/scala/UserListOperation.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/src/main/scala/UserOperationTrait.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/src/test/scala/UserListOperationTest.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/User$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/UserListOperation$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/UserListOperation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/classes/UserOperationTrait.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/User.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/scoverage-report/UserListOperation.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/scala-2.12/test-classes/UserListOperationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/streams/test/test/isModule=false name=UserListOperationTest/test/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/accounts/target/test-reports/UserListOperationTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/scala/Api.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/classes/Api.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/scala-2.12/scoverage-report/Api.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/src/main/scala/Cart.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/classes/Cart.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/checkout/target/scala-2.12/scoverage-report/Cart.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/src/main/scala/Item.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/src/main/scala/ItemListOperation.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/src/main/scala/ItemListOperationTrait.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/src/test/scala/ItemListOperationTest.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/Item$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/ItemListOperation$.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/ItemListOperation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/classes/ItemListOperationTrait.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/(empty).html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/Item.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/scoverage-report/ItemListOperation.scala.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/scala-2.12/test-classes/ItemListOperationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/streams/test/test/isModule=false name=ItemListOperationTest/test/out" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inventory/target/test-reports/ItemListOperationTest.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/accounts/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accounts/target/streams/test/$global/$global/definedTestNames/data" afterPath="$PROJECT_DIR$/accounts/target/streams/test/$global/$global/definedTestNames/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/api/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
@@ -167,7 +127,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/fullClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/checkout/target/streams/test/managedClasspath/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/checkout/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" afterPath="$PROJECT_DIR$/dashboard/src/main/scala/Application.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/coverage-report/cobertura.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/coverage-report/cobertura.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/dashboard/target/scala-2.12/resolution-cache/com.knoldus/dashboard_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" />
@@ -351,7 +310,7 @@
         <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/com/knolkart/modules/ItemTest/ItemTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#39#71#0" expanded="true" />
               </folding>
@@ -363,13 +322,13 @@
         <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/com/knolkart/modules/Cart.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemListOperationTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemListOperationTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/com/knolkart/operations/ItemListOperationTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="814">
@@ -379,11 +338,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ItemListOperation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/com/knolkart/operations/ItemListOperation.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="836">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#33#74#0" expanded="true" />
               </folding>
@@ -512,154 +481,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="operations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ItemTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test-Scala-01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inventory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1196,16 +1017,23 @@
       <workItem from="1517980779426" duration="3980000" />
       <workItem from="1518026847525" duration="5230000" />
       <workItem from="1518086686576" duration="5961000" />
-      <workItem from="1518140708286" duration="399000" />
+      <workItem from="1518140708286" duration="1056000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding package structre ,test methods for toString and one test method for authenticate method">
+      <created>1518141191213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518141191213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51733000" />
+    <option name="totallyTimeSpent" value="52390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="24" width="1309" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1218,7 +1046,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6699029" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28503564" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28503564" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1271,18 +1099,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding package structre ,test methods for toString and one test method for authenticate method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding package structre ,test methods for toString and one test method for authenticate method" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/src/test/scala/com/knolkart/operations/UserListOperationTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -1319,6 +1144,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1380,6 +1208,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1449,6 +1280,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1466,6 +1300,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="130" column="94" lean-forward="true" selection-start-line="130" selection-start-column="94" selection-end-line="130" selection-end-column="94" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1475,6 +1310,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1494,6 +1330,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1574,7 +1413,7 @@
     <entry file="file://$PROJECT_DIR$/inventory/src/main/scala/com/knolkart/operations/ItemListOperation.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#33#74#0" expanded="true" />
           </folding>
@@ -1584,7 +1423,7 @@
     <entry file="file://$PROJECT_DIR$/inventory/src/test/scala/com/knolkart/modules/ItemTest/ItemTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#39#71#0" expanded="true" />
           </folding>
@@ -1594,7 +1433,7 @@
     <entry file="file://$PROJECT_DIR$/checkout/src/main/scala/com/knolkart/modules/Cart.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1603,6 +1442,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding />
         </state>
       </provider>
