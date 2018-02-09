@@ -1,5 +1,5 @@
 <scoverage 
-statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1518094474481">
+statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1518153648312">
     <packages>
         <package name="com.knolkart.modules" statement-count="13" statements-invoked="13" statement-rate="100.00">
             <classes>

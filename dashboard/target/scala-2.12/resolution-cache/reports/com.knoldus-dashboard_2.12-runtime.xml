@@ -7,7 +7,7 @@
 		revision="0.1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
-		date="20180208173731"/>
+		date="20180209105048"/>
 	<dependencies>
 		<module organisation="log4j" name="log4j">
 			<revision name="1.2.17" status="release" pubdate="20120526151339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
@@ -22,7 +22,7 @@
 			</revision>
 		</module>
 		<module organisation="com.knoldus" name="api_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180208173730" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180209105046" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.knoldus" name="dashboard_2.12" conf="compile, runtime" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
@@ -30,7 +30,7 @@
 			</revision>
 		</module>
 		<module organisation="com.knoldus" name="checkout_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180208173729" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180209105046" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.knoldus" name="api_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<artifacts>
@@ -38,7 +38,7 @@
 			</revision>
 		</module>
 		<module organisation="com.knoldus" name="inventory_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180208173728" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180209105045" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.knoldus" name="checkout_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="com.knoldus" name="api_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
@@ -47,7 +47,7 @@
 			</revision>
 		</module>
 		<module organisation="com.knoldus" name="accounts_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180208173729" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180209105046" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="com.knoldus" name="checkout_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
 				<caller organisation="com.knoldus" name="api_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>

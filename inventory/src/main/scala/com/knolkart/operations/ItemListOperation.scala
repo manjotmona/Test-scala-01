@@ -10,7 +10,7 @@ import com.knolkart.modules.Item
  */
 case class ItemListOperation(stockOfItems: Map[Int, Item]) extends ItemListOperationTrait  {
 
-  override def toString: String = s"$stockOfItems\n"
+  override def toString: String = s"$stockOfItems"
   def searchItemByCategory(category: String): String = {
     val itemList = stockOfItems.valuesIterator.toList
 
