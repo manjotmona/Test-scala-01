@@ -1,107 +1,117 @@
 <scoverage 
-statement-count="23" statements-invoked="11" statement-rate="47.83" branch-rate="100.00" version="1.0" timestamp="1517940648217">
+statement-count="25" statements-invoked="25" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1518094474505">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="23" statements-invoked="11" statement-rate="47.83">
+        <package name="com.knolkart.modules" statement-count="15" statements-invoked="15" statement-rate="100.00">
             <classes>
                 <class 
-                name="UserListOperation" filename="UserListOperation.scala" statement-count="8" statements-invoked="4" statement-rate="50.00" branch-rate="100.00">
+                name="com.knolkart.modules.User" filename="com/knolkart/modules/User.scala" statement-count="15" statements-invoked="15" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/UserListOperation/toString" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.knolkart.modules/User/toString" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="190" end="193" line="9" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="193" end="226" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="174" end="175" line="9" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="200" end="202" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="172" end="193" line="9" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="196" end="200" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="toString" start="175" end="190" line="9" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="225" end="226" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="217" end="225" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="195" end="196" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="215" end="217" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="toString" start="202" end="215" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/UserListOperation/authenticateUser" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knolkart.modules/User/authenticateSingleUser" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="522" end="568" line="19" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="382" end="403" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="authenticateUser" start="392" end="411" line="16" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
-                        <method 
-                        name="&lt;empty&gt;/UserListOperation/addNewUser" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
-                            <statements>
-                                <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="267" end="293" line="12" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="447" end="449" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="UserListOperation" class-type="Class" full-class-name="UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/UserListOperation.scala" method="addNewUser" start="248" end="294" line="12" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="366" end="429" line="11" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="310" end="364" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="339" end="364" line="11" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="410" end="423" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="User" class-type="Class" full-class-name="com.knolkart.modules.User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/modules/User.scala" method="authenticateSingleUser" start="447" end="449" line="16" branch="true" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                     </methods>
 </class>
+            </classes>
+        </package>
+        <package name="com.knolkart.operations" statement-count="10" statements-invoked="10" statement-rate="100.00">
+            <classes>
                 <class 
-                name="User" filename="User.scala" statement-count="15" statements-invoked="7" statement-rate="46.67" branch-rate="100.00">
+                name="com.knolkart.operations.UserListOperation" filename="com/knolkart/operations/UserListOperation.scala" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/User/authenticateSingleUser" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knolkart.operations/UserListOperation/addNewUser" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="352" end="373" line="10" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="addNewUser" start="473" end="499" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="417" end="419" line="14" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="addNewUser" start="442" end="504" line="17" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="336" end="399" line="9" branch="true" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="280" end="334" line="9" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="309" end="334" line="9" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="380" end="393" line="11" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="authenticateSingleUser" start="417" end="419" line="14" branch="true" invocation-count="1" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="addNewUser" start="454" end="500" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/User/toString" statement-count="8" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.knolkart.operations/UserListOperation/toString" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="163" end="196" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="toString" start="384" end="385" line="15" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="170" end="172" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="toString" start="368" end="369" line="15" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="166" end="170" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="toString" start="366" end="385" line="15" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="195" end="196" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="toString" start="369" end="384" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knolkart.operations/UserListOperation/authenticateUser" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="authenticateUser" start="612" end="631" line="22" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="187" end="195" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="authenticateUser" start="589" end="687" line="21" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="165" end="166" line="6" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="185" end="187" line="6" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="User" class-type="Class" full-class-name="User" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/User.scala" method="toString" start="172" end="185" line="6" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.operations" class="UserListOperation" class-type="Class" full-class-name="com.knolkart.operations.UserListOperation" source="/home/pallavi/WorkSpace/Test-Scala-01/accounts/src/main/scala/com/knolkart/operations/UserListOperation.scala" method="authenticateUser" start="636" end="683" line="23" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>

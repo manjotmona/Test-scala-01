@@ -1,8 +1,0 @@
-[0m[[0minfo[0m] [0m[32mItemListOperationTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mSearch Item By category[0m[0m
-[0m[[0minfo[0m] [0m[32m- should return list of all items in that category[0m[0m
-[0m[[0minfo[0m] [0m[32m- should not return list of items not in that category[0m[0m
-[0m[[0minfo[0m] [0m[32msortByPriceAscending[0m[0m
-[0m[[0minfo[0m] [0m[32m- should list in Ascending Order[0m[0m
-[0m[[0minfo[0m] [0m[32msortByPriceDescending[0m[0m
-[0m[[0minfo[0m] [0m[32m- should list in Ascending Order[0m[0m

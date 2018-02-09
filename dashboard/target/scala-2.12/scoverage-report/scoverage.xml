@@ -1,64 +1,76 @@
 <scoverage 
-statement-count="17" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1517940649813">
+statement-count="21" statements-invoked="0" statement-rate="0.00" branch-rate="0.00" version="1.0" timestamp="1518094475641">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="17" statements-invoked="0" statement-rate="0.00">
+        <package name="&lt;empty&gt;" statement-count="21" statements-invoked="0" statement-rate="0.00">
             <classes>
                 <class 
-                name="Application" filename="Application.scala" statement-count="17" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                name="Application" filename="Application.scala" statement-count="21" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/Application/main" statement-count="17" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="&lt;empty&gt;/Application/main" statement-count="21" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="788" end="848" line="26" branch="true" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="1022" end="1082" line="31" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="464" end="497" line="17" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="627" end="660" line="21" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="658" end="679" line="20" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="734" end="779" line="23" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="188" end="219" line="10" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="785" end="1098" line="24" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="343" end="379" line="14" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="351" end="382" line="14" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="732" end="762" line="23" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="506" end="542" line="18" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="282" end="316" line="13" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="922" end="929" line="27" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="703" end="714" line="21" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="445" end="479" line="17" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="788" end="848" line="26" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="832" end="890" line="25" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="434" end="459" line="16" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="941" end="992" line="28" branch="true" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="205" end="218" line="10" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="597" end="622" line="20" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="571" end="605" line="19" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="368" end="381" line="14" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="516" end="541" line="18" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="759" end="779" line="23" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="622" end="695" line="20" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="897" end="1090" line="26" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="234" end="241" line="11" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="679" end="704" line="22" branch="false" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="384" end="416" line="15" branch="false" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="1022" end="1082" line="31" branch="true" invocation-count="0" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="732" end="762" line="23" branch="true" invocation-count="0" ignored="false">
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="851" end="872" line="25" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="397" end="404" line="15" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="1110" end="1130" line="36" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="547" end="579" line="19" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="&lt;empty&gt;" class="Application" class-type="Object" full-class-name="Application" source="/home/pallavi/WorkSpace/Test-Scala-01/dashboard/src/main/scala/Application.scala" method="main" start="941" end="992" line="28" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>

@@ -4,7 +4,7 @@
 		module="accounts_2.12"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20180206234046"
+		publication="20180208173729"
 	>
 		<description>
 		accounts

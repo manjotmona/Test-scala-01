@@ -23,36 +23,43 @@
         <div class="tab-content">
           <div class="tab-pane active" id="codegrid">
             <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import scala.io.StdIn
-</span>2 <span style=''>
-</span>3 <span style=''>import org.apache.log4j.Logger
-</span>4 <span style=''>
-</span>5 <span style=''>/**
-</span>6 <span style=''> * Created by pallavi on 6/2/18.
-</span>7 <span style=''> */
-</span>8 <span style=''>object  Application extends {
-</span>9 <span style=''>  def main(args: Array[String]): Unit = {
-</span>10 <span style=''>    val logObject = </span><span style='background: #F0ADAD'>Logger.getLogger(this.getClass)</span><span style=''>
-</span>11 <span style=''>    val api = </span><span style='background: #F0ADAD'>new Api</span><span style=''>
-</span>12 <span style=''>    //add credentials
-</span>13 <span style=''>    val newUser = </span><span style='background: #F0ADAD'>User(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)</span><span style=''>
-</span>14 <span style=''>    val registeredUsers = </span><span style='background: #F0ADAD'>api.userTraitApi.addNewUser(newUser)</span><span style=''>
-</span>15 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter user id:&quot;)</span><span style=''>
-</span>16 <span style=''>    val userID = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
-</span>17 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter password:&quot;)</span><span style=''>
-</span>18 <span style=''>    val userPwd = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
-</span>19 <span style=''>    val newRegisteredUsers = </span><span style='background: #F0ADAD'>UserListOperation(registeredUsers)</span><span style=''>
-</span>20 <span style=''>    val token = </span><span style='background: #F0ADAD'>newRegisteredUsers.authenticateUser(newUser.contactNumber,userID,userPwd)</span><span style=''>
-</span>21 <span style=''>    if(</span><span style='background: #F0ADAD'>token == -1</span><span style=''>)
-</span>22 <span style=''>      {
-</span>23 <span style=''>        </span><span style='background: #F0ADAD'>logObject.info(&quot;Invalid User&quot;)</span><span style=''>
-</span>24 <span style=''>      }
-</span>25 <span style=''>    else {
-</span>26 <span style=''>      </span><span style='background: #F0ADAD'>logObject.info(&quot;a token successfully generted for the user&quot;)</span><span style=''>
-</span>27 <span style=''>
-</span>28 <span style=''>    }
-</span>29 <span style=''>
-</span>30 <span style=''>  }
-</span>31 <span style=''>}
+</span>2 <span style=''>import scala.concurrent.ExecutionContext.Implicits.global
+</span>3 <span style=''>
+</span>4 <span style=''>import com.knolkart.Api
+</span>5 <span style=''>import com.knolkart.modules.User
+</span>6 <span style=''>import com.knolkart.operations.UserListOperation
+</span>7 <span style=''>import org.apache.log4j.Logger
+</span>8 <span style=''>
+</span>9 <span style=''>/**
+</span>10 <span style=''> * Created by pallavi on 6/2/18.
+</span>11 <span style=''> */
+</span>12 <span style=''>object Application extends {
+</span>13 <span style=''>  def main(args: Array[String]): Unit = {
+</span>14 <span style=''>    val logObject = </span><span style='background: #F0ADAD'>Logger.getLogger(this.getClass)</span><span style=''>
+</span>15 <span style=''>    val api = </span><span style='background: #F0ADAD'>new Api</span><span style=''>
+</span>16 <span style=''>    //add credentials
+</span>17 <span style=''>    val newUser = </span><span style='background: #F0ADAD'>User(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)</span><span style=''>
+</span>18 <span style=''>    val registeredUsers = </span><span style='background: #F0ADAD'>api.userTraitApi.addNewUser(newUser)</span><span style=''>
+</span>19 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter user id:&quot;)</span><span style=''>
+</span>20 <span style=''>    val userID = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
+</span>21 <span style=''>    </span><span style='background: #F0ADAD'>logObject.info(&quot;Enter password:&quot;)</span><span style=''>
+</span>22 <span style=''>    val userPwd = </span><span style='background: #F0ADAD'>StdIn.readLine().toString</span><span style=''>
+</span>23 <span style=''>    val newRegisteredUsers = </span><span style='background: #F0ADAD'>registeredUsers map {x=&gt; UserListOperation(x)</span><span style=''>}
+</span>24 <span style=''>    </span><span style='background: #F0ADAD'>newRegisteredUsers map { x=&gt;
+</span>25 <span style=''></span><span style='background: #F0ADAD'>      val token = x.authenticateUser(newUser.contactNumber, userID, userPwd)
+</span>26 <span style=''></span><span style='background: #F0ADAD'>      token map{ y=&gt;
+</span>27 <span style=''></span><span style='background: #F0ADAD'>      if (y == -1) {
+</span>28 <span style=''></span><span style='background: #F0ADAD'>        logObject.info(&quot;Invalid com.knolkart.modules.User&quot;)
+</span>29 <span style=''></span><span style='background: #F0ADAD'>      }
+</span>30 <span style=''></span><span style='background: #F0ADAD'>      else {
+</span>31 <span style=''></span><span style='background: #F0ADAD'>        logObject.info(&quot;a token successfully generted for the user&quot;)
+</span>32 <span style=''></span><span style='background: #F0ADAD'>      }
+</span>33 <span style=''></span><span style='background: #F0ADAD'>      }</span><span style=''>
+</span>34 <span style=''>    }
+</span>35 <span style=''>
+</span>36 <span style=''>    </span><span style='background: #F0ADAD'>Thread.sleep(100000)</span><span style=''>
+</span>37 <span style=''>  }
+</span>38 <span style=''>}
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -66,15 +73,15 @@
         <th>Code</th>
       </tr><tr>
         <td>
-          10
+          14
         </td>
         <td>
           2
         </td>
         <td>
-          188
+          351
           -
-          219
+          382
         </td>
         <td>
           Apply
@@ -87,15 +94,15 @@
         </td>
       </tr><tr>
         <td>
-          10
+          14
         </td>
         <td>
           1
         </td>
         <td>
-          205
+          368
           -
-          218
+          381
         </td>
         <td>
           Apply
@@ -108,78 +115,78 @@
         </td>
       </tr><tr>
         <td>
-          11
+          15
         </td>
         <td>
           3
         </td>
         <td>
-          234
+          397
           -
-          241
+          404
         </td>
         <td>
           Apply
         </td>
         <td>
-          Api.&lt;init&gt;
+          com.knolkart.Api.&lt;init&gt;
         </td>
         <td style="background: #F0ADAD">
-          new Api()
+          new com.knolkart.Api()
         </td>
       </tr><tr>
         <td>
-          13
+          17
         </td>
         <td>
           4
         </td>
         <td>
-          282
+          445
           -
-          316
+          479
         </td>
         <td>
           Apply
         </td>
         <td>
-          User.apply
+          com.knolkart.modules.User.apply
         </td>
         <td style="background: #F0ADAD">
-          User.apply(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)
+          com.knolkart.modules.User.apply(&quot;Jas&quot;, 65778, &quot;jas20&quot;, &quot;jas&quot;)
         </td>
       </tr><tr>
         <td>
-          14
+          18
         </td>
         <td>
           5
         </td>
         <td>
-          343
+          506
           -
-          379
+          542
         </td>
         <td>
           Apply
         </td>
         <td>
-          UserOperationTrait.addNewUser
+          com.knolkart.UserOperationTrait.addNewUser
         </td>
         <td style="background: #F0ADAD">
           api.userTraitApi.addNewUser(newUser)
         </td>
       </tr><tr>
         <td>
-          15
+          19
         </td>
         <td>
           6
         </td>
         <td>
-          384
+          547
           -
-          416
+          579
         </td>
         <td>
           Apply
@@ -192,15 +199,15 @@
         </td>
       </tr><tr>
         <td>
-          16
+          20
         </td>
         <td>
           7
         </td>
         <td>
-          434
+          597
           -
-          459
+          622
         </td>
         <td>
           Apply
@@ -213,15 +220,15 @@
         </td>
       </tr><tr>
         <td>
-          17
+          21
         </td>
         <td>
           8
         </td>
         <td>
-          464
+          627
           -
-          497
+          660
         </td>
         <td>
           Apply
@@ -234,15 +241,15 @@
         </td>
       </tr><tr>
         <td>
-          18
+          22
         </td>
         <td>
           9
         </td>
         <td>
-          516
+          679
           -
-          541
+          704
         </td>
         <td>
           Apply
@@ -255,78 +262,150 @@
         </td>
       </tr><tr>
         <td>
-          19
-        </td>
-        <td>
-          10
-        </td>
-        <td>
-          571
-          -
-          605
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          UserListOperation.apply
-        </td>
-        <td style="background: #F0ADAD">
-          UserListOperation.apply(registeredUsers)
-        </td>
-      </tr><tr>
-        <td>
-          20
+          23
         </td>
         <td>
           11
         </td>
         <td>
-          658
+          734
           -
-          679
+          779
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.concurrent.Future.map
+        </td>
+        <td style="background: #F0ADAD">
+          registeredUsers.map[com.knolkart.operations.UserListOperation](((x: Map[Int,com.knolkart.modules.User]) =&gt; com.knolkart.operations.UserListOperation.apply(x)))(scala.concurrent.ExecutionContext.Implicits.global)
+        </td>
+      </tr><tr>
+        <td>
+          23
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          759
+          -
+          779
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knolkart.operations.UserListOperation.apply
+        </td>
+        <td style="background: #F0ADAD">
+          com.knolkart.operations.UserListOperation.apply(x)
+        </td>
+      </tr><tr>
+        <td>
+          24
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          785
+          -
+          1098
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.concurrent.Future.map
+        </td>
+        <td style="background: #F0ADAD">
+          newRegisteredUsers.map[scala.concurrent.Future[Unit]](((x: com.knolkart.operations.UserListOperation) =&gt; {
+  val token: scala.concurrent.Future[Int] = x.authenticateUser(newUser.contactNumber, userID, userPwd);
+  token.map[Unit](((y: Int) =&gt; if (y.==(-1))
+    logObject.info(&quot;Invalid com.knolkart.modules.User&quot;)
+  else
+    logObject.info(&quot;a token successfully generted for the user&quot;)))(scala.concurrent.ExecutionContext.Implicits.global)
+}))(scala.concurrent.ExecutionContext.Implicits.global)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          832
+          -
+          890
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knolkart.operations.UserListOperation.authenticateUser
+        </td>
+        <td style="background: #F0ADAD">
+          x.authenticateUser(newUser.contactNumber, userID, userPwd)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          851
+          -
+          872
         </td>
         <td>
           Select
         </td>
         <td>
-          User.contactNumber
+          com.knolkart.modules.User.contactNumber
         </td>
         <td style="background: #F0ADAD">
           newUser.contactNumber
         </td>
       </tr><tr>
         <td>
-          20
+          26
         </td>
         <td>
-          12
+          19
         </td>
         <td>
-          622
+          897
           -
-          695
+          1090
         </td>
         <td>
-          Apply
+          ApplyToImplicitArgs
         </td>
         <td>
-          UserListOperation.authenticateUser
+          scala.concurrent.Future.map
         </td>
         <td style="background: #F0ADAD">
-          newRegisteredUsers.authenticateUser(newUser.contactNumber, userID, userPwd)
+          token.map[Unit](((y: Int) =&gt; if (y.==(-1))
+  logObject.info(&quot;Invalid com.knolkart.modules.User&quot;)
+else
+  logObject.info(&quot;a token successfully generted for the user&quot;)))(scala.concurrent.ExecutionContext.Implicits.global)
         </td>
       </tr><tr>
         <td>
-          21
+          27
         </td>
         <td>
-          13
+          14
         </td>
         <td>
-          703
+          922
           -
-          714
+          929
         </td>
         <td>
           Apply
@@ -335,82 +414,61 @@
           scala.Int.==
         </td>
         <td style="background: #F0ADAD">
-          token.==(-1)
+          y.==(-1)
         </td>
       </tr><tr>
         <td>
-          23
-        </td>
-        <td>
-          14
-        </td>
-        <td>
-          732
-          -
-          762
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          org.apache.log4j.Category.info
-        </td>
-        <td style="background: #F0ADAD">
-          logObject.info(&quot;Invalid User&quot;)
-        </td>
-      </tr><tr>
-        <td>
-          23
-        </td>
-        <td>
-          15
-        </td>
-        <td>
-          732
-          -
-          762
-        </td>
-        <td>
-          Block
-        </td>
-        <td>
-          org.apache.log4j.Category.info
-        </td>
-        <td style="background: #F0ADAD">
-          logObject.info(&quot;Invalid User&quot;)
-        </td>
-      </tr><tr>
-        <td>
-          26
-        </td>
-        <td>
-          17
-        </td>
-        <td>
-          788
-          -
-          848
-        </td>
-        <td>
-          Block
-        </td>
-        <td>
-          org.apache.log4j.Category.info
-        </td>
-        <td style="background: #F0ADAD">
-          logObject.info(&quot;a token successfully generted for the user&quot;)
-        </td>
-      </tr><tr>
-        <td>
-          26
+          28
         </td>
         <td>
           16
         </td>
         <td>
-          788
+          941
           -
-          848
+          992
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Invalid com.knolkart.modules.User&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          941
+          -
+          992
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;Invalid com.knolkart.modules.User&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          1022
+          -
+          1082
         </td>
         <td>
           Apply
@@ -420,6 +478,48 @@
         </td>
         <td style="background: #F0ADAD">
           logObject.info(&quot;a token successfully generted for the user&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          1022
+          -
+          1082
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          org.apache.log4j.Category.info
+        </td>
+        <td style="background: #F0ADAD">
+          logObject.info(&quot;a token successfully generted for the user&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          36
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          1110
+          -
+          1130
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Thread.sleep
+        </td>
+        <td style="background: #F0ADAD">
+          java.lang.Thread.sleep(100000L)
         </td>
       </tr>
     </table>

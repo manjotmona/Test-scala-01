@@ -1,3 +1,4 @@
 #Successful Tests
-#Tue Feb 06 23:40:04 IST 2018
-UserListOperationTest=1517940604593
+#Thu Feb 08 18:27:35 IST 2018
+com.knolkart.modules.UserTest=1518094655670
+com.knolkart.operations.UserListOperationTest=1518094655716

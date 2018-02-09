@@ -1,7 +1,0 @@
-[0m[[0minfo[0m] [0m[32mUserListOperationTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mAdd new user method[0m[0m
-[0m[[0minfo[0m] [0m[32m- should add a new user[0m[0m
-[0m[[0minfo[0m] [0m[32m- should not add an already Existing user[0m[0m
-[0m[[0minfo[0m] [0m[32mAuthenticate use[0m[0m
-[0m[[0minfo[0m] [0m[32m- should authenticate a valid user[0m[0m
-[0m[[0minfo[0m] [0m[32m- should not authenticate an invalid user[0m[0m

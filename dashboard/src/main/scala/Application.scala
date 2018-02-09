@@ -1,5 +1,9 @@
 import scala.io.StdIn
+import scala.concurrent.ExecutionContext.Implicits.global
 
+import com.knolkart.Api
+import com.knolkart.modules.User
+import com.knolkart.operations.UserListOperation
 import org.apache.log4j.Logger
 
 /**
@@ -16,15 +20,19 @@ object Application extends {
     val userID = StdIn.readLine().toString
     logObject.info("Enter password:")
     val userPwd = StdIn.readLine().toString
-    val newRegisteredUsers = UserListOperation(registeredUsers)
-    val token = newRegisteredUsers.authenticateUser(newUser.contactNumber, userID, userPwd)
-    if (token == -1) {
-      logObject.info("Invalid User")
+    val newRegisteredUsers = registeredUsers map {x=> UserListOperation(x)}
+    newRegisteredUsers map { x=>
+      val token = x.authenticateUser(newUser.contactNumber, userID, userPwd)
+      token map{ y=>
+      if (y == -1) {
+        logObject.info("Invalid com.knolkart.modules.User")
+      }
+      else {
+        logObject.info("a token successfully generted for the user")
+      }
+      }
     }
-    else {
-      logObject.info("a token successfully generted for the user")
 
-    }
-
+    Thread.sleep(100000)
   }
 }

@@ -1,67 +1,67 @@
 <scoverage 
-statement-count="13" statements-invoked="9" statement-rate="69.23" branch-rate="100.00" version="1.0" timestamp="1517940648569">
+statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1518094474481">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="13" statements-invoked="9" statement-rate="69.23">
+        <package name="com.knolkart.modules" statement-count="13" statements-invoked="13" statement-rate="100.00">
             <classes>
                 <class 
-                name="Cart" filename="Cart.scala" statement-count="13" statements-invoked="9" statement-rate="69.23" branch-rate="100.00">
+                name="com.knolkart.modules.Cart" filename="com/knolkart/modules/Cart.scala" statement-count="13" statements-invoked="13" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/Cart/toString" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.knolkart.modules/Cart/toString" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="601" end="604" line="24" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="toString" start="653" end="654" line="30" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="587" end="604" line="24" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="toString" start="639" end="654" line="30" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="589" end="590" line="24" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="toString" start="641" end="642" line="30" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="toString" start="590" end="601" line="24" branch="false" invocation-count="0" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="toString" start="642" end="653" line="30" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/Cart/addItem" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knolkart.modules/Cart/internalSum" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="addItem" start="150" end="172" line="6" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="596" end="597" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="510" end="526" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="516" end="526" line="21" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="583" end="594" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="571" end="598" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="internalSum" start="492" end="527" line="21" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/Cart/internalSum" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knolkart.modules/Cart/addItem" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="542" end="543" line="20" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="450" end="466" line="16" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="456" end="466" line="16" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="530" end="541" line="20" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="518" end="544" line="20" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="internalSum" start="433" end="467" line="16" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="addItem" start="214" end="236" line="10" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/Cart/removeItem" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knolkart.modules/Cart/removeItem" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="removeItem" start="260" end="269" line="9" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="removeItem" start="324" end="333" line="14" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="Cart" class-type="Class" full-class-name="Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/Cart.scala" method="removeItem" start="241" end="270" line="9" branch="false" invocation-count="1" ignored="false">
+                                package="com.knolkart.modules" class="Cart" class-type="Class" full-class-name="com.knolkart.modules.Cart" source="/home/pallavi/WorkSpace/Test-Scala-01/checkout/src/main/scala/com/knolkart/modules/Cart.scala" method="removeItem" start="305" end="334" line="14" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
